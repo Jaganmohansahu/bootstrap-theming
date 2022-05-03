@@ -4,7 +4,7 @@
   "description": "Overriding the default theme of bootstrap-5.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch fonts:fonts src:src",
+    "sass": "sass --watch src:src",
     "sass-help": "sass --help",
     "live-server": "live-server"
   },
