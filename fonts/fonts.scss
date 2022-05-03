@@ -1,0 +1,43 @@
+$font-family: "Roboto" !default;
+
+@font-face {
+    font-family: "#{$font-family}-Regular";
+    src: url("../fonts/#{$font-family}-Regular.woff") format("woff"),
+        url("../fonts/#{$font-family}-Regular.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-Regular.eot") format("eot");
+}
+
+@font-face {
+    font-family: "#{$font-family}-Bold";
+    src: url("../fonts/#{$font-family}-Bold.woff") format("woff"),
+        url("../fonts/#{$font-family}-Bold.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-Bold.eot") format("eot");
+}
+
+@font-face {
+    font-family: "#{$font-family}-Italic";
+    src: url("../fonts/#{$font-family}-Italic.woff") format("woff"),
+        url("../fonts/#{$font-family}-Italic.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-Italic.eot") format("eot");
+}
+
+@font-face {
+    font-family: "#{$font-family}-Light";
+    src: url("../fonts/#{$font-family}-Light.woff") format("woff"),
+        url("../fonts/#{$font-family}-Light.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-Light.eot") format("eot");
+}
+
+@font-face {
+    font-family: "#{$font-family}-BoldItalic";
+    src: url("../fonts/#{$font-family}-BoldItalic.woff") format("woff"),
+        url("../fonts/#{$font-family}-BoldItalic.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-BoldItalic.eot") format("eot");
+}
+
+@font-face {
+    font-family: "#{$font-family}-LightItalic";
+    src: url("../fonts/#{$font-family}-LightItalic.woff") format("woff"),
+        url("../fonts/#{$font-family}-LightItalic.ttf") format("truetype"),
+        url("../fonts/#{$font-family}-LightItalic.eot") format("eot");
+}
